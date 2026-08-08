@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join Khoa Nguyen & John Do for our wedding celebrations in Ho Chi Minh City, Vietnam.">
+  <title>Khoa Nguyen & John Do — Wedding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪷</text></svg>">
+</head>
+<body>
+
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#top" class="nav-logo">K &amp; J</a>
+      <div class="nav-right">
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+          <span class="lang-divider" aria-hidden="true">|</span>
+          <button type="button" class="lang-btn" data-lang="vi" aria-pressed="false">VI</button>
+        </div>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#overview" data-i18n="nav.overview">Overview</a></li>
+          <li><a href="#tea-ceremony" data-i18n="nav.tea">Tea Ceremony</a></li>
+          <li><a href="#wedding-ceremony" data-i18n="nav.wedding">Wedding</a></li>
+          <li><a href="#travel" data-i18n="nav.travel">Travel</a></li>
+          <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+          <li><a href="#rsvp" class="nav-cta" data-i18n="nav.rsvp">RSVP</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow" data-i18n="hero.eyebrow">We're getting married</p>
+      <h1 class="hero-names">
+        <span class="name">Khoa Nguyen</span>
+        <span class="ampersand">&amp;</span>
+        <span class="name">John Do</span>
+      </h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">Ho Chi Minh City, Vietnam</p>
+      <div class="hero-shortcuts">
+        <a href="#tea-ceremony" class="btn btn-outline">
+          <span class="btn-label" data-i18n="hero.teaLabel">Tea Ceremony</span>
+          <span class="btn-date" data-i18n="hero.teaDate">Nov 13, 2026</span>
+        </a>
+        <a href="#wedding-ceremony" class="btn btn-primary">
+          <span class="btn-label" data-i18n="hero.weddingLabel">Wedding Ceremony</span>
+          <span class="btn-date" data-i18n="hero.weddingDate">Nov 14, 2026</span>
+        </a>
+      </div>
+      <a href="#overview" class="scroll-hint" data-i18n-aria="hero.scrollDown" aria-label="Scroll down">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M12 5v14M5 12l7 7 7-7"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <section class="section" id="overview">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="overview.tag">Welcome</span>
+        <h2 data-i18n="overview.title">Our Celebration</h2>
+      </div>
+      <div class="overview-grid">
+        <div class="overview-text">
+          <p data-i18n="overview.p1">We are so excited to celebrate with you! Our wedding weekend in Ho Chi Minh City begins with a traditional tea ceremony hosted by Khoa's family, followed by our wedding reception at The Harvest.</p>
+          <p data-i18n="overview.p2">Vietnam will be warm and humid during our celebrations, so please dress comfortably. We can't wait to share this journey with our closest family and friends.</p>
+        </div>
+        <div class="overview-cards">
+          <article class="event-card event-card--tea">
+            <div class="event-card-icon">🍵</div>
+            <h3 data-i18n="overview.teaTitle">Tea Ceremony</h3>
+            <p class="event-card-date" data-i18n="overview.teaDate">Friday, November 13, 2026</p>
+            <p class="event-card-venue" data-i18n="overview.teaVenue">Khoa's Family Home</p>
+            <a href="#tea-ceremony" class="event-card-link" data-i18n="overview.viewDetails">View details →</a>
+          </article>
+          <article class="event-card event-card--wedding">
+            <div class="event-card-icon">💍</div>
+            <h3 data-i18n="overview.weddingTitle">Wedding Ceremony</h3>
+            <p class="event-card-date" data-i18n="overview.weddingDate">Saturday, November 14, 2026</p>
+            <p class="event-card-venue" data-i18n="overview.weddingVenue">The Harvest</p>
+            <a href="#wedding-ceremony" class="event-card-link" data-i18n="overview.viewDetails">View details →</a>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="tea-ceremony">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="tea.tag">Event One</span>
+        <h2 data-i18n="tea.title">Tea Ceremony</h2>
+        <p class="section-lead" data-i18n="tea.lead">A traditional celebration hosted by the bride's family</p>
+      </div>
+      <div class="detail-grid">
+        <div class="detail-info">
+          <dl class="detail-list">
+            <div class="detail-item">
+              <dt data-i18n="labels.date">Date</dt>
+              <dd data-i18n="tea.date">Friday, November 13, 2026</dd>
+            </div>
+            <div class="detail-item">
+              <dt data-i18n="labels.time">Time</dt>
+              <dd data-i18n="tea.time">10:00 AM — until we finish!</dd>
+            </div>
+            <div class="detail-item">
+              <dt data-i18n="labels.venue">Venue</dt>
+              <dd data-i18n="tea.venue">Khoa's Family Home</dd>
+            </div>
+            <div class="detail-item">
+              <dt data-i18n="labels.address">Address</dt>
+              <dd data-i18n-html="tea.address">91A/1 Phu Dinh Street<br>Phu Dinh, Ho Chi Minh City</dd>
+            </div>
+            <div class="detail-item">
+              <dt data-i18n="labels.dressCode">Dress Code</dt>
+              <dd data-i18n="tea.dress">Semi-formal — comfortable dress, áo dài, shirt, or polo</dd>
+            </div>
+            <div class="detail-item">
+              <dt data-i18n="labels.transportation">Transportation</dt>
+              <dd data-i18n="tea.transport">Ideally John's family & friends will travel together. We will try to organise buses — TBC.</dd>
+            </div>
+          </dl>
+          <div class="detail-notes">
+            <p data-i18n="tea.details">The tea ceremony is typically hosted by the bride's family, so expect plenty of food & beer. It is generally reserved for close family & friends — we would be honoured if you can attend.</p>
+            <p class="note" data-i18n-html="tea.note"><strong>Note:</strong> It will be warm and humid in Vietnam — feel free to wear something comfortable. We will be outdoors but undercover.</p>
+          </div>
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=91A/1+Phu+Dinh+Street,+Phu+Dinh,+Ho+Chi+Minh+City,+Vietnam"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline btn-sm"
+            data-i18n="tea.maps"
+          >Open in Google Maps</a>
+        </div>
+        <div class="detail-map">
+          <iframe
+            data-i18n-title="tea.mapTitle"
+            title="Tea Ceremony location map"
+            src="https://maps.google.com/maps?q=91A/1+Phu+Dinh+Street,+Phu+Dinh,+Ho+Chi+Minh+City,+Vietnam&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="wedding-ceremony">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="wedding.tag">Event Two</span>
+        <h2 data-i18n="wedding.title">Wedding Ceremony</h2>
+        <p class="section-lead" data-i18n="wedding.lead">Join us as we say "I do"</p>
+      </div>
+      <div class="detail-grid detail-grid--reverse">
+        <div class="detail-info">
+          <dl class="detail-list">
+            <div class="detail-item">
+              <dt data-i18n="labels.date">Date</dt>
+              <dd data-i18n="wedding.date">Saturday, November 14, 2026</dd>
+            </div>
+            <div class="detail-item">
+              <dt data-i18n="labels.time">Time</dt>
+              <dd data-i18n="wedding.time">5:00 PM — 10:00 PM</dd>
+            </div>
+            <div class="detail-item">
+              <dt data-i18n="labels.venue">Venue</dt>
+              <dd data-i18n="wedding.venue">The Harvest</dd>
+            </div>
+            <div class="detail-item">
+              <dt data-i18n="labels.address">Address</dt>
+              <dd data-i18n-html="wedding.address">12 An Tu Cong Chua<br>Binh Khanh, An Khanh<br>Ho Chi Minh City</dd>
+            </div>
+            <div class="detail-item">
+              <dt data-i18n="labels.dressCode">Dress Code</dt>
+              <dd data-i18n="wedding.dress">Semi-formal / Cocktail attire</dd>
+            </div>
+            <div class="detail-item">
+              <dt data-i18n="labels.transportation">Transportation</dt>
+              <dd data-i18n="wedding.transport">Booking by Grab (similar to Uber) will be approx. 5–10 min for those staying in Thao Dien or Vinhomes Central Park.</dd>
+            </div>
+          </dl>
+          <div class="detail-notes">
+            <p data-i18n="wedding.details">This will be a set menu with drinks provided (water, soft drink, beer, spirits).</p>
+            <p class="note" data-i18n-html="wedding.note"><strong>Note:</strong> Please try to arrive on time.</p>
+          </div>
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=12+An+Tu+Cong+Chua,+Binh+Khanh,+An+Khanh,+Ho+Chi+Minh+City,+Vietnam"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline btn-sm"
+            data-i18n="wedding.maps"
+          >Open in Google Maps</a>
+        </div>
+        <div class="detail-map">
+          <iframe
+            data-i18n-title="wedding.mapTitle"
+            title="Wedding Ceremony location map"
+            src="https://maps.google.com/maps?q=12+An+Tu+Cong+Chua,+Binh+Khanh,+An+Khanh,+Ho+Chi+Minh+City,+Vietnam&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="travel">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="travel.tag">Plan Your Trip</span>
+        <h2 data-i18n="travel.title">Travel & Accommodations</h2>
+      </div>
+      <div class="travel-content">
+        <p data-i18n="travel.intro">We suggest booking accommodation in the Thao Dien (District 2) or Vinhomes Central Park (Binh Thanh) area:</p>
+        <div class="travel-cards">
+          <article class="travel-card">
+            <h3 data-i18n="travel.thaoDien">Thao Dien</h3>
+            <p class="travel-card-area" data-i18n="travel.thaoDienArea">District 2</p>
+            <p data-i18n="travel.thaoDienDesc">A charming riverside neighborhood with great restaurants, cafés, and expat-friendly amenities.</p>
+          </article>
+          <article class="travel-card">
+            <h3 data-i18n="travel.vinhomes">Vinhomes Central Park</h3>
+            <p class="travel-card-area" data-i18n="travel.vinhomesArea">Binh Thanh</p>
+            <p data-i18n="travel.vinhomesDesc">Modern high-rise living in the heart of the city, close to shopping and the central business district.</p>
+          </article>
+        </div>
+        <p class="travel-tip" data-i18n="travel.tip">Ho Chi Minh City (Saigon) is well connected by Tan Son Nhat International Airport (SGN). Grab and taxis are readily available throughout the city.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faq">
+    <div class="container container--narrow">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="faq.tag">Questions</span>
+        <h2 data-i18n="faq.title">Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary data-i18n="faq.kidsQ">Are kids welcome?</summary>
+          <p data-i18n-html="faq.kidsA">Yes — just let us know their ages and how many when you RSVP. <strong>Note:</strong> Kids will have the same menu at the Tea Ceremony and a different menu at the Wedding reception.</p>
+        </details>
+        <details class="faq-item">
+          <summary data-i18n="faq.rsvpQ">What is the RSVP deadline?</summary>
+          <p data-i18n-html="faq.rsvpA">Please RSVP by <strong>October 1st</strong> so we can finalize arrangements with our venues.</p>
+        </details>
+        <details class="faq-item">
+          <summary data-i18n="faq.teaDressQ">What should I wear to the tea ceremony?</summary>
+          <p data-i18n="faq.teaDressA">Semi-formal — a comfortable dress, áo dài, shirt, or polo works well. It will be warm and humid, and the event is outdoors (under cover).</p>
+        </details>
+        <details class="faq-item">
+          <summary data-i18n="faq.weddingDressQ">What should I wear to the wedding ceremony?</summary>
+          <p data-i18n="faq.weddingDressA">Semi-formal or cocktail attire. Light, breathable fabrics work well in the Vietnamese climate.</p>
+        </details>
+        <details class="faq-item">
+          <summary data-i18n="faq.teaTransportQ">Will there be transportation to the tea ceremony?</summary>
+          <p data-i18n="faq.teaTransportA">Ideally John's family & friends will travel together. We will try to organise buses — details to be confirmed.</p>
+        </details>
+        <details class="faq-item">
+          <summary data-i18n="faq.weddingTransportQ">How do I get to the wedding reception?</summary>
+          <p data-i18n="faq.weddingTransportA">Booking by Grab (similar to Uber) will be approx. 5–10 min for those staying in Thao Dien or Vinhomes Central Park.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--rsvp" id="rsvp">
+    <div class="container container--narrow">
+      <div class="section-header section-header--light">
+        <span class="section-tag" data-i18n="rsvp.tag">Join Us</span>
+        <h2 data-i18n="rsvp.title">RSVP</h2>
+        <p class="section-lead" data-i18n="rsvp.lead">We hope you can make it! Please respond by October 1st.</p>
+      </div>
+      <form class="rsvp-form" id="rsvp-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-group">
+          <label for="name"><span data-i18n="rsvp.name">Full Name</span> <span aria-hidden="true">*</span></label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+        </div>
+        <div class="form-group">
+          <label for="guests" data-i18n="rsvp.guests">Number of Guests (including yourself)</label>
+          <select id="guests" name="guests">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5+</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="kids" data-i18n="rsvp.kids">Children attending (ages)</label>
+          <input type="text" id="kids" name="kids" data-i18n-placeholder="rsvp.kidsPlaceholder" placeholder="e.g. 2 kids, ages 4 and 7">
+        </div>
+        <div class="form-group">
+          <label for="dietary" data-i18n="rsvp.dietary">Dietary Restrictions or Allergies</label>
+          <textarea id="dietary" name="dietary" rows="2" data-i18n-placeholder="rsvp.dietaryPlaceholder" placeholder="Let us know if you have any dietary needs"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full" data-i18n="rsvp.submit">Send RSVP</button>
+        <p class="form-note" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-names">Khoa &amp; John</p>
+      <p class="footer-date" data-i18n="footer.date">November 13–14, 2026 · Ho Chi Minh City</p>
+      <a href="#top" class="footer-top" data-i18n="footer.backToTop">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

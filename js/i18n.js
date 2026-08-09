@@ -106,7 +106,7 @@ window.WEDDING_I18N = {
       kidsPlaceholder: "e.g. 2 kids, ages 4 and 7",
       dietary: "Dietary Restrictions or Allergies",
       dietaryPlaceholder: "Let us know if you have any dietary needs",
-      submit: "Disabled (RSVP to John)",
+      submit: "Disabled (Please send RSVP to John)",
       required: "*",
       sending: "Sending…",
       success: "Thank you! Your RSVP has been received. We can't wait to see you!",

@@ -69,7 +69,7 @@ window.WEDDING_I18N = {
     travel: {
       tag: "Plan Your Trip",
       title: "Travel & Accommodations",
-      intro: "We suggest booking accommodation in the Thao Dien (District 2) or Vinhomes Central Park (Binh Thanh) area:",
+      intro: "We suggest booking accommodation in the Vinhomes Central Park (Binh Thanh) or Thao Dien (District 2) area:",
       thaoDien: "Thao Dien",
       thaoDienArea: "District 2",
       thaoDienDesc: "A charming riverside neighborhood with great restaurants, cafés, and expat-friendly amenities.",

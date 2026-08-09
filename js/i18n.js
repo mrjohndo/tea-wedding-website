@@ -187,7 +187,7 @@ window.WEDDING_I18N = {
       venue: "The Harvest",
       address: "12 An Tu Cong Chua<br>Bình Khánh, An Khánh<br>TP. Hồ Chí Minh",
       dress: "Bán trang trọng / Trang phục cocktail",
-      transport: "Đặt Grab (tương tự Uber) khoảng 5–10 phút nếu bạn ở Thảo Điền hoặc Vinhomes Central Park.",
+      transport: "Đặt Grab (tương tự Uber) khoảng 5–10 phút nếu bạn ở Vinhomes Central Park hoặc Thảo Điền.",
       details: "Tiệc sẽ là set menu kèm đồ uống (nước, nước ngọt, bia, rượu mạnh).",
       note: "<strong>Lưu ý:</strong> Hãy cố gắng đến đúng giờ.",
       maps: "Mở trên Google Maps",

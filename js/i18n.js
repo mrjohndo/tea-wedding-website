@@ -153,7 +153,7 @@ window.WEDDING_I18N = {
       title: "Lễ Kỷ Niệm Của Chúng Mình",
       p1: "Chúng mình rất vui được mời bạn cùng chia sẻ! Cuối tuần cưới tại TP. Hồ Chí Minh bắt đầu với lễ trà truyền thống do gia đình Khoa tổ chức, tiếp theo là tiệc cưới tại The Harvest.",
       p2: "Thời tiết Việt Nam sẽ ấm và ẩm, hãy ăn mặc thoải mái. Chúng mình mong được chia sẻ khoảnh khắc này cùng gia đình và bạn bè thân thiết.",
-      teaTitle: "Lễ Trà",
+      teaTitle: "Lễ Gia Tiên",
       teaDate: "Thứ Sáu, 13 tháng 11, 2026",
       teaVenue: "Nhà Gia Đình Khoa",
       weddingTitle: "Lễ Cưới",

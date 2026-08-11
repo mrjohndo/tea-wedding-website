@@ -899,3 +899,11 @@ h1, h2, h3 {
 .lang-btn.active {
   opacity: 1;
 }
+
+.lang-divider {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1;
+  opacity: 0.6;
+  user-select: none;
+}
